@@ -1,7 +1,7 @@
 import scrapy
 import json
 import datetime
-from minespider import MinespiderItem
+from minespider.items import MinespiderItem
 
 class InfoSpider(scrapy.Spider):
     name = "infoq1"
